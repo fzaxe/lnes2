@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            text-align: center;
+padding: 15px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            width: 60%;
+text-decoration: none; /* Remove default link underline */
+            text-align: center;
+        }
+.button:hover {
+            background-color: darkred; /* Change color on hover if desired */
+        }
+
+        .button-icon::before {
+            content: "\f04b"; /* Unicode for a play icon (you can change this) */
+            font-family: FontAwesome; /* You may need to include the FontAwesome library for this to work */
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="#link"> <img src="https://d1yei2z3i6k35z.cloudfront.net/5097048/6505ea0e30ef8_64e5abacef9c6_64afe700e9b8f_646ad3c72c942_346143816_909492733614879_600596076978569411_n.jpg" alt="Image"> </a>
+        <div class="button-container">
+            <button onclick="window.location.href='https://#link';" class="button"></span>▶ Play Now</button>
+            <button onclick="window.location.href='https://#link';" class="button">⬇ Download Now</button>
+        </div>
+    </div>
+</body>
+</html>
